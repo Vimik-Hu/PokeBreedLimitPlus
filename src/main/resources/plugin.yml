@@ -1,0 +1,15 @@
+name: PokeBreedLimitPlus
+main: com.vimik.pokebreedlimitplus.PokeBreedLimitPlus
+softdepend:
+  - PlaceholderAPI
+version: 1.0
+authors: [qq,1137748680]
+commands:
+  pokebreedlimitplus:
+    description: main command
+    aliases: [pblp]
+permissions:
+  pokebreedlimit.notlimit:
+    description: notlimit
+    default: op
+

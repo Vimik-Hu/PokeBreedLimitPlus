@@ -1,0 +1,18 @@
+pfr:
+  default: 2
+  permission-limit:
+    '1':
+      permission: pokebreedlimitplus.vip
+      number: 5
+    '2':
+      permission: pokebreedlimitplus.DIY
+      number: 10
+    '3':
+      permission: 自定义权限.自定义
+      number: 11
+message:
+  nobreed: '&a精灵 &f{pokemon} &a今日可繁殖次数已&c达到上限 &a无法再次继续繁殖'
+  add: '&e成功繁殖出一只精灵 &9精灵 &f{pokemon}&e 今日繁殖次数 &f+1'
+  open: true
+  tips: '要关闭消息提示请将message处改为false'
+prefix: '&7[Poke&3BreedLimit&7]'
